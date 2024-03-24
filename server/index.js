@@ -16,7 +16,7 @@ app.use('/posts', postRoutes)
 const pword = process.env.psword
 const uname = process.env.usname
 
-const CONNECTION_URL = `mongodb+srv://${uname}:${pword}@cluster0.bdk8lrv.mongodb.net/`
+const CONNECTION_URL = `mongodb+srv://${uname}:${pword}@cluster0.m5cl0cf.mongodb.net/`
 const PORT = process.env.PORT || 5000
 
 mongoose.connect(CONNECTION_URL)

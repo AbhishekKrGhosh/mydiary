@@ -15,7 +15,7 @@ function App(){
         dispatch(getPosts())
     },[dispatch])
     return(
-        <Container maxWidth="lg" >
+        <Container maxWidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
                 <Typography className={classes.heading} variant="h2" align="center">My Diary</Typography>
                 <img className={classes.image} src={diary} alt="myDiary" height={100}/>

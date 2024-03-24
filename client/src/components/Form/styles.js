@@ -8,6 +8,8 @@ export default makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
+    background: '#FFFAE6',
+    borderRadius:'10px'
   },
   form: {
     display: 'flex',
@@ -19,6 +21,11 @@ export default makeStyles((theme) => ({
     margin: '10px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
+    color: '#FFFFFF',
+    backgroundColor: theme.palette.success.main,
+    '&:hover': {
+      backgroundColor: theme.palette.success.dark,
+    },
+    margin: '10px 0',
   },
 }));
