@@ -1,6 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
+  heading: {
+    fontFamily: "Great Vibes",
+    fontWeight: 'bold'
+  },
   root: {
     '& .MuiTextField-root': {
       margin: theme.spacing(1),
